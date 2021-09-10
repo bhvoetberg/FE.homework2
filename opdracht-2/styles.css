@@ -3,3 +3,64 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+
+/*2.1*/
+.one {
+    display: flex;
+    background-color: mediumpurple;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+/*----------------------------*/
+
+
+/*2.2*/
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+/*----------------------------*/
+
+
+/*2.3*/
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list23 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-basis: 300px;
+    justify-content: space-between;
+}
+/*----------------------------*/
+
+
+/*2.4*/
+/*gekozen voor 'div form' om te oefenen, class had ook gekund :)*/
+div form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------*/
+
+
+/*2.5*/
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    /* 400 - linker en rechter padding = 360*/
+    flex-basis: 360px;
+}
+/*----------------------------*/
